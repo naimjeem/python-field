@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51cdf176-bf44-424d-bbed-35f01481eaff" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/guess_the_num.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/collatz_sequence.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +23,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="guess_the_num.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="guess_the_num.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic/guess_the_num.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="collatz_sequence.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basic/collatz_sequence.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -53,6 +61,8 @@
         <option value="$PROJECT_DIR$/basic/conditional.py" />
         <option value="$PROJECT_DIR$/basic/hello.py" />
         <option value="$PROJECT_DIR$/basic/guess_the_num.py" />
+        <option value="$PROJECT_DIR$/basic/coallatz_sequence.py" />
+        <option value="$PROJECT_DIR$/basic/collatz_sequence.py" />
       </list>
     </option>
   </component>
@@ -104,7 +114,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.guess_the_num">
+  <component name="RunManager" selected="Python.collatz_sequence">
+    <configuration name="collatz_sequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python-field" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/collatz_sequence.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="conditional" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python-field" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,24 +146,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/conditional.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="data_types" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python-field" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/data_types.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,18 +207,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.hello" />
-      <item itemvalue="Python.data_types" />
       <item itemvalue="Python.operators" />
       <item itemvalue="Python.conditional" />
       <item itemvalue="Python.guess_the_num" />
+      <item itemvalue="Python.collatz_sequence" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.collatz_sequence" />
         <item itemvalue="Python.guess_the_num" />
         <item itemvalue="Python.hello" />
         <item itemvalue="Python.operators" />
         <item itemvalue="Python.conditional" />
-        <item itemvalue="Python.data_types" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +237,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -236,7 +245,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32932693" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.44583333" visible="true" weight="0.32932693" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.44583333" weight="0.32932693" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" x="0" y="313" width="1440" height="274" id="Terminal" order="7" sideWeight="0.5541667" side_tool="true" visible="true" weight="0.32932693" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -313,7 +322,14 @@
     <entry file="file://$PROJECT_DIR$/basic/guess_the_num.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/collatz_sequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
         </state>
       </provider>
     </entry>
